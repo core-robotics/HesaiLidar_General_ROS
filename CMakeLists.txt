@@ -5,6 +5,7 @@ project(hesai_lidar)
 
 ADD_COMPILE_OPTIONS(-std=c++11 )
 ADD_COMPILE_OPTIONS(-std=c++14 )
+add_compile_options(-w)
 
 find_package( Boost REQUIRED  COMPONENTS thread)
 find_package(PCL REQUIRED)
