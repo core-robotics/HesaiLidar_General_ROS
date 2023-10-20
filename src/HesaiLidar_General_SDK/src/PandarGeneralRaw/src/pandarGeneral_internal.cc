@@ -654,7 +654,7 @@ int PandarGeneral_Internal::LoadCorrectionFile(std::string correction_content) {
     }
 
     elev_angle[lineId - 1] = elev;
-    azimuthOffset[lineId - 1] = azimuth - 87.807175926;
+    azimuthOffset[lineId - 1] = azimuth - 88.6974;
   }
   m_sin_elevation_map_.resize(lineCounter);
   m_cos_elevation_map_.resize(lineCounter);
